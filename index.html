@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rafael Luz - Desenvolvedor e Designer</title>
+        <meta name="description" content="Desenvolvedor Front End e UI e UX design">
+        <link rel="icon" href="./favicon.svg" type="image/svg+xml">  
+        <script>document.documentElement.classList.add("js");</script>
+		<link rel="stylesheet" href="./css/style.css">
+
+	</head>
+	<body>
+		<header id="home" class="dark menu-mob">
+			<div class="dark-light">
+				<input type="checkbox" name="toggle" id="toggle" class="toggle toggle-dark"/>
+				<label for="toggle" id="label-toggle">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun" >
+						<circle cx="12" cy="12" r="5"></circle>
+						<line x1="12" y1="1" x2="12" y2="3"></line>
+						<line x1="12" y1="21" x2="12" y2="23"></line>
+						<line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+						<line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+						<line x1="1" y1="12" x2="3" y2="12"></line>
+						<line x1="21" y1="12" x2="23" y2="12"></line>
+						<line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+						<line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+					</svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
+						<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+					</svg>
+				</label>
+			</div>
+			<nav class="menu">
+				<div class="header-menu-mob">
+					<h2 data-anime="500" class="fadeInDown"><span>.</span>Portfólio</h2>
+					<i class="fas fa-bars menu-mobile visible"></i>
+					<i class="fas fa-times close hidden"></i>
+				</div>
+				<ul>
+					<li data-anime="500" class="fadeInDown"><a href="#home">Home</a></li>
+					<li data-anime="500" class="fadeInDown"><a href="#sobreMim">Sobre mim</a></li>
+					<li data-anime="500" class="fadeInDown"><a href="#experiencia">Experiência</a></li>
+					<li data-anime="500" class="fadeInDown"><a href="#projetos">Projetos</a></li>
+                    <li data-anime="500" class="fadeInDown"><a href="#contato">Contato</a></li>
+					<li class="hidden-li">
+						<input type="checkbox" name="toggle" id="toggle" class="toggle toggle-dark"/>
+						<label for="toggle" id="label-toggle">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun">
+								<circle cx="12" cy="12" r="5"></circle>
+								<line x1="12" y1="1" x2="12" y2="3"></line>
+								<line x1="12" y1="21" x2="12" y2="23"></line>
+								<line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+								<line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+								<line x1="1" y1="12" x2="3" y2="12"></line>
+								<line x1="21" y1="12" x2="23" y2="12"></line>
+								<line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+								<line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+								fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
+								<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" ></path>
+							</svg>
+						</label>
+					</li>
+				</ul>
+			</nav>
+			<div class="apresentacao">
+				<div class="perfil">
+					<div class="texto">
+						<h2 data-anime="1000" class="fadeInDown">Olá, eu sou</h2>
+						<h1 data-anime="1500" class="fadeInDown">Rafael Luz</h1>
+                        <p data-anime="2000" class="fadeInDown"><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+					</div>
+					<div class="links btn-hover">
+						<a href="http://www.linkedin.com/in/rafaoluz" class="border-linkedin fadeInDown" target="_blank" data-anime="2500">
+							<img src="./assets/redes_sociais/linkedin.svg" alt="imagem linkedin" class="linkedin fadeInDown" data-anime="2500"/> Linkedin </a>
+						<a href="https://github.com/rafaoluz" class="border-github fadeInDown" target="_blank" data-anime="2500">
+							<img  src="./assets/redes_sociais/github.svg" alt="imagem github" class="github fadeInDown" data-anime="2500" /> GitHub
+						</a>
+					</div>
+				</div>
+				<figure class="loop fadeInDown" data-anime="1000">
+					<img src="./assets/background/bg.svg" alt="loop" />
+				</figure>
+			</div>
+		</header>
+		<main id="sobreMim" class="dark2">
+			<div class="sobreMim">
+				<figure class="perfil">
+					<img src="./assets/perfil/foto_perfil.png" alt="Foto de Perfil" class="fadeInDown" data-anime="3000" width="367" height="367" />
+				</figure>
+				<div class="desc">
+					<h2 class="fadeInDown" data-anime="3000">SOBRE MIM</h2>
+					<p class="fadeInDown" data-anime="3500"> Desenvolvo projetos para web utilizando <strong>HTML</strong>,
+                    <strong>CSS</strong> e <strong>JavaScript.</strong> Responsável pela criação das interfaces e pela execução de testes com a aplicação <strong>Adobe XD.</strong> 
+					</p>
+					<figure class="tecnologias fadeInDown" data-anime="4000">
+						<img src="./assets/tecnologias/adobe-xd.svg" alt="Adobe XD" />
+						<img src="./assets/tecnologias/bootstrap.svg" alt="bootstrap" />
+						<img src="./assets/tecnologias/css3.svg" alt="CSS3" />
+						<img src="./assets/tecnologias/git.svg" alt="Git" />
+						<img src="./assets/tecnologias/github.svg" alt="GitHub" />
+						<img src="./assets/tecnologias/jquery.svg" alt="JQuery" />
+						<img src="./assets/tecnologias/html-5.svg" alt="HTML5" />
+						<img src="./assets/tecnologias/javascript.svg" alt="JavaScript" />
+						<img src="./assets/tecnologias/visual_studio.svg" alt="Visual Studio" />
+					</figure>
+				</div>
+			</div>
+			<div class="experiencia dark" id="experiencia">
+				<h2 class="fadeInDown" data-anime="4500">EXPERIÊNCIA</h2>
+				<div class="divisao">
+					<ul class="xp">
+						<li class="li ativo fadeInDown" data-anime="5000">Analista de Sistemas</li>
+						<li class="li fadeInDown" data-anime="5000">Suporte Técnico</li>
+						<li class="li fadeInDown" data-anime="5000">Faculdade</li>
+						<li class="li fadeInDown" data-anime="5000">Cursos</li>
+					</ul>
+					<div class="detalhes fadeInDown" data-anime="4500">
+						<div>
+							<h2 class="titulo">Estudante de Ciência da Computação</h2>
+							<p class="data">Ago 2019 - o momento</p>
+						</div>
+						<p class="local">UNIP, São José dos Campos, Brasil</p>
+						<p class="desc desc2">
+							Estou cursando Ciência da Computação na Universidade Paulista - UNIP, atualmente estou no 7º Semestre.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="projetos dark2" id="projetos">
+				<h2>PROJETOS</h2>
+				<div class="listagem">
+					<div class="p1">
+						<div>
+							<figure>
+								<img src="assets/projetos/bikcraft.PNG" alt="Projeto Bikcraft"/>
+							</figure>
+							<h3>Bikcraft - Bicicletas Elétricas</h3>
+
+							<p> Esse projeto consiste na criação de um site para a venda de biciceltas elétricas.</p>
+
+							<p class="tecnologias">Adobe XD, HTML5, CSS3 e JavaScript.</p>
+							<a href="https://bikcraft-bicicletas-eletricas-github-io.vercel.app/" target="_blank">
+								&#x1F517; Visualizar</a>
+						</div>
+						<div>
+
+							<figure>
+								<img src="assets/projetos/Brafé.png" alt="Projeto Brafé"/>
+							</figure>
+							<h3>Brafé - Cafés e cappuccinos</h3>
+
+							<p> Esse projeto consiste na criação de um site para venda de cafés e cappuccinos.</p>
+
+							<p class="tecnologias">Adobe XD, HTML5, CSS3.</p>
+							<a href="https://brafe-github-io.vercel.app/" target="_blank">
+								&#x1F517; Visualizar</a>
+						</div>
+						
+						<div>
+							<figure>
+								<img src="assets/projetos/controle_financeiro.png" alt="Projeto Controle Financeiro"/>
+							</figure>
+							<h3>Controle Financeiro Pessoal</h3>
+
+							<p> Esse projeto consiste em uma aplicação para o controle financeiro pessoal.</p>
+
+							<p class="tecnologias">HTML5, CSS3 e JavaScript.</p>
+							<a href="https://controle-financeiro-github-io.vercel.app/" target="_blank">
+								&#x1F517; Visualizar</a>
+						</div>
+						
+						<div>
+							<figure>
+								<img src="assets/projetos/Flexblog.png" alt="Projeto Flexblog"/>
+							</figure>
+							<h3>Flexblog</h3>
+
+							<p>Esse projeto consiste em um site para a venda de produtos, e também sendo desenvolvido para praticar a propriedade flexbox do CSS.</p>
+
+							<p class="tecnologias">Adobe XD, HTML5, CSS3 e JavaScript.</p>
+							<a href="https://flexblog-github-io.vercel.app/" target="_blank">
+								&#x1F517; Visualizar</a>
+						</div>
+
+						<div>
+							<figure>
+								<img src="assets/projetos/Jordan Shoes.png" alt="Projeto Jordan"/>
+							</figure>
+							<h3>Jordan Shoes</h3>
+
+							<p>Esse projeto consiste em uma loja online para a venda de tenis Jordan em parceria com a nike.</p>
+
+							<p class="tecnologias">HTML5, CSS3 e JavaScript.</p>
+							<a href="https://jordan-shoes-github-io.vercel.app/" target="_blank">
+								&#x1F517; Visualizar</a>
+						</div>
+
+						<div>
+							<figure>
+								<img src="assets/projetos/netflix.png" alt="Projeto Netflix"/>
+							</figure>
+							<h3>Clone Netflix</h3>
+
+							<p>Esse projeto consiste no clone da netflix. </p>
+
+							<p class="tecnologias">HTML5, CSS3, JavaScript e Jquery.</p>
+							<a href="https://clone-netflix-github-io.vercel.app/" target="_blank">
+								&#x1F517; Visualizar</a>
+						</div>
+
+						<div>
+							<figure>
+								<img src="assets/projetos/surfbot.png" alt="Projeto Surfbot"/>
+							</figure>
+							<h3>Surfbot - Aulas na praia</h3>
+
+							<p>Esse projeto consiste em um site para prática de surf na praia. </p>
+
+							<p class="tecnologias">HTML5, CSS3, JavaScript.</p>
+							<a href="https://surfbot-github-io.vercel.app/" target="_blank">
+								&#x1F517; Visualizar</a>
+						</div>
+
+						<div>
+							<figure>
+								<img src="assets/projetos/wildbeast.png" alt="Projeto Wildbeast"/>
+							</figure>
+							<h3>Wildbeast - Lobos</h3>
+
+							<p>Esse projeto consiste em um site mostrando a vida dos lobos, e também sendo desenvolvido para praticar a propriedade grid layout do CSS.  </p>
+
+							<p class="tecnologias">HTML5, CSS3, JavaScript.</p>
+							<a href="https://wildbeast-github-io.vercel.app/" target="_blank">
+								&#x1F517; Visualizar</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="dark" id="contato">
+			<div class="footer_container">
+                <p class="footer_texto">Estou disponível para novos projetos. Entre em contato comigo e marcamos uma conversa.&#128075;&#127995;</p>
+                <div class="footer_contato">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li><a href="http://www.linkedin.com/in/rafaoluz" target="_blank"><img src="/assets/redes_sociais/linkedin.svg" alt="Linkedin" class="redes_sociais"></a></li>
+                        <li><a href="https://github.com/rafaoluz" target="_blank"><img src="/assets/redes_sociais/github.svg" alt="Github" class="redes_sociais"></a></li>
+                        <li><a href="mailto:rafaoluz7@gmail.com" target="_blank"><img src="/assets/redes_sociais/gmail.svg" alt="instagram" class="redes_sociais"></a></li>
+                        <li><a href="mailto:rafaoluz@hotmail.com" target="_blank"><img src="/assets/redes_sociais/outlook.svg" alt="Outlook" class="redes_sociais"></a></li>
+                        <li><a href="tel:+12991796353" target="_blank"><img src="/assets/redes_sociais/whatsapp.svg" alt="whatsapp" class="redes_sociais"></a></li>
+                    </ul>
+                </div>
+                <p class="footer_copy">Rafael Oliveira Luz</p>
+            </div>
+		</footer>
+
+		<script src="./js/simple-anime.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
